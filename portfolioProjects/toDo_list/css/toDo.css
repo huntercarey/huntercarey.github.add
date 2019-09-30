@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, aqua ,  blueviolet, teal);
+    text-align: center;
+    font-family: 'Cute Font';
+    /* list-style-position: inside; */
+}
+
+h1 {
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Cute Font';
+    font-size: 50pt;
+}
+
+/* Rules for the three paragraph texts */
+
+p {
+    font-size: 25pt;
+}
+
+#pText1 {
+    color: aqua;
+}
+
+#pText2 {
+    color: rgb(225, 233, 106);
+}
+
+#pText3 {
+    color: palevioletred;
+}
+
+/* Styles for the input element used to add a new to-do*/
+
+#textInput {
+    min-width: 65%; /* This element's width must be at least 65% of the width of its container */
+
+}
+
+
+
+/* Styles for the submit button */
+
+#submitButton, #textInput {
+    font-size: 18pt;
+}
+
+#submitButton {
+    background-color: aqua;
+    border: none;
+}
+
+#submitButton:hover {
+    color: blueviolet;
+
+    /* Allows us to add a delay before animation starts */
+     transition-delay: 1s;
+
+    /* Allows us to control how long the animation takes */
+    transition-duration: 7s;
+
+    /* Allows us to specify what property will be animated for the transition */
+    transition-property: color;
+
+    /* Allows us to modify the speed of the animation */
+    transition-timing-function: ease-in; 
+
+    /* SHORTHAND */
+    transition: color 7s ease-in 1s; 
+    /* property, duration, timing-function, delay */
+}
+
+#textInput {
+    height: 38px;
+}
+
+/* Styles for the UL and LI */
+
+ul {
+    font-size: 30pt;
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+}
+
+li:hover {
+    background-color: green;
+
+}
+
+/* Styles for when a list item is marked DONE */
+
+.done {
+    background-color: cadetblue !important;
+}
+
+
+li > button {
+    background: none;
+    float: right;
+    border: none;
+    color: white;
+}
+
+.delete {
+    display: none;
+}
+
+

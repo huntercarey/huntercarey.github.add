@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+#clockDisplay {
+    position: absolute; /*We want to position this exactly*/
+    top: 50%; /*Move element down 50% of the height of the parent*/
+    left: 50%;/*Move element right 50% of the height of the parent*/
+    display: inline-block;
+    font-family: monospace;
+    font-size: 40pt;
+    color:goldenrod;
+    padding: 10px;
+    border: 5px ridge goldenrod;
+    border-radius: 0 10% 0 10%;
+    transform: translateX(-50%) translateY(-50%); /*Move the element 50% of its width to the left and 50% of its height up.*/
+   
+
+}
+
+#clockDisplay:hover {
+    border-radius: 30%;
+    transition: 10s;
+    border: solid;
+    transform : rotateY(180deg);
+
+}
+
+#dateDisplay {
+    position: absolute; /*We want to position this exactly*/
+    top: 58%; /*Move element down 50% of the height of the parent*/
+    left: 32.2%; /*Move element right 50% of the height of the parent*/
+    display: inline-block;
+    font-family: monospace;
+    font-size: 30pt;
+    color:goldenrod;
+    
+}
+
+h1, h2 {
+    color: gold;
+}
+
+
+#git {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#linked {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    border: none;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 10%;
+    font-size: 30px;
+    border: 5px ridge pink;
+    margin: 10px;
+}
+
+a:hover {
+    /* font-size: 30pt; */
+    transition: .1s;
+    border-radius: 25%;
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5); */
+    color: black;
+
+} 
+
+footer p {
+    color: gold;
+    font-size: 16pt;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 20%;
+}
+
+#countUp {
+    color: gold;
+}

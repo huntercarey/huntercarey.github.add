@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/eightBall.css" rel="stylesheet">
+    <title>Magic Eightball</title>
+</head>
+
+<body>
+    <!-- Use border radius and box shadow to make ball -->
+    <div class="ball">
+        <div id='insideBall'>
+            <h1>Magic Eightball</h1>
+            <!-- <label for='question'>ask:</label> -->
+
+            <input id='question' type='text' name='userName' pattern='[A-Za-z]'> 
+            <input id='button' type='button' value='ASK'>
+            <div id="answerBox">
+                <div id='answer'></div>
+
+            </div>
+            <input type='button' id='reset' value='RESET'>
+            <!-- Add a button -->
+
+        </div>
+
+    </div>
+    <script type='text/javascript' src='../js/ball.js'></script>
+</body>
+
+</html>

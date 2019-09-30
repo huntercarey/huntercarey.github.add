@@ -1,0 +1,95 @@
+body{
+    background-color: aquamarine;
+}
+
+.ball {
+    background:linear-gradient(to left, black 80%,white );
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    margin:70px auto;
+    border-radius: 360px;
+    
+}
+
+
+    
+
+
+h1 {
+    font-size: 50pt;
+    box-shadow: 0px 20px 10px 10px;
+    background: linear-gradient(to right, violet, fuchsia);
+    /* transform: skewY(50deg) skewX(50deg); */
+}
+h1:hover {
+    transition: 10s;
+    background: linear-gradient(to right, fuchsia, violet);
+}
+
+#question {
+   background-color:blue;
+   height:20pt;
+   position: relative;
+   top: -5px;
+   color:antiquewhite;
+   font-size:20pt;
+   width: 200px;
+   border:none;
+   
+}
+
+#question:focus{
+    outline:20px blue;
+}
+
+#answer {
+    position: relative;
+    color:pink;
+    margin: 45px auto;
+    display: inline-block;
+    font-size: 30pt;
+}
+
+#insideBall {
+    padding: 83px;
+}
+
+#answerBox {
+    height:150px;
+    width:345px;
+    background-color: blue;
+    margin: 0px auto 0px auto;
+}
+
+#button {
+    height: 60px;
+    width: 100px;
+    display:block;
+    background-color: fuchsia;
+    color:blue;;
+    font-size:30pt;
+    margin: 30px auto;
+    border: none;
+    padding: 5px;
+}
+
+#button:focus {
+    outline: none;
+}
+
+#reset {
+    background-color: fuchsia;
+    color: blue;
+    display: block;
+    margin: 30px auto;
+    border: none;
+    height: 60px;
+    width: 150px;
+    font-size: 30pt;
+}
+
+#reset:focus {
+    outline: none;
+
+}

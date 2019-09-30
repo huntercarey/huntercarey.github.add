@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, rgb(1, 129, 129) 80%, rgb(15, 28, 102, 10%),  rgb(50, 50, 77) )
+}
+
+button {
+    background-color: bisque;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 2%;
+    width: 70px;
+    font-size: 14pt;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+button:focus {
+    outline: none;
+}
+
+#quiz div {
+    padding: 5px;
+}
+
+
+#results {
+    color: yellowgreen;
+    margin: 10px;
+    font-size: 13pt;
+}
