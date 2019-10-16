@@ -66,7 +66,7 @@
      tipCalculatorButton.addEventListener('click', getTipCalculator);
 
 
-     //BUSUNESS SITE
+     //BUSINESS SITE
      function getBusinessSite() {
         picture.src ='../pics/businessPage.png';
         picture.alt = 'my Business Site website homepage'
