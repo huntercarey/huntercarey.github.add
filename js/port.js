@@ -71,7 +71,7 @@
         aboutText.innerText ='Mock Business Page'; 
         aboutParagraph.innerText = 'Basic in practice yet integral to potential..';
         aboutParagraph2.innerText ='At this point in my training I felt confident about creating a web page.. as long as it only had one page. Learning how to navigate between pages was a small step at the time, but has proved to have taught me the possibilities of a web page. My favorite part of this project was designing the buttons which allow you to navigate from the HOME page to the ABOUT page and then back again! Using :HOVER in CSS to create responsiveness that let the user know that this element can be clicked and invites them to explore. The business I chose to represent with this is the Japanese manga magazine, Weekly Shonen Jump. One of my all time favorites in story telling.';
-        projectLink.setAttribute("href", "portfolioProjects/Multi_Page_Business_Site/html/about.html");
+        projectLink.setAttribute("href", "portfolioProjects/Multi_Page_Business_Site/html/index.html");
     }
     
     businessSiteButton.addEventListener('click', getBusinessSite);
