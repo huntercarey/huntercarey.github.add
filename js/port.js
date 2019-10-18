@@ -1,5 +1,3 @@
-
-//jhdhwvcksdcv
 (function(){
     var imgBox = document.getElementById('imgBox');
     var aboutBox = document.getElementById('aboutImgBox');

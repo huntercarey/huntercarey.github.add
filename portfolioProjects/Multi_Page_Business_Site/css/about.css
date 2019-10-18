@@ -1,0 +1,62 @@
+span{
+    position: relative;
+    top: 5px;
+    left: 10px;
+   
+
+}
+
+.leftImage{
+    float: left;
+}
+
+.rightImage{
+    float: right;
+}
+
+p{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+.top h2{
+    display: inline-block;
+    position: relative;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.bottom h2{
+    text-align: center;
+    padding-left: 170px;
+    
+}
+
+hr{
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+}
+
+.bottom p{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 200px;
+
+}
+
+h2{
+    font-size: 50pt;
+}
+
+.top p{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+
+
+
+
+
+
