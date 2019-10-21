@@ -12,6 +12,7 @@
     var toDoListButton = document.getElementById('toDoList');
     var liveClockButton = document.getElementById('liveClock');
     var backToMeButton = document.getElementById('backToMe');
+    var weatherVaneButton = document.getElementById('weatherVane');
     
 
     var aboutText = document.createElement('h1');
@@ -131,6 +132,22 @@
     }
     
     liveClockButton.addEventListener('click', getLiveClock);
+
+
+
+    //WEATHER VANE
+    function getWeatherVane() {
+        picture.src ='pics/weatherVane.png'; 
+        picture.alt = 'Weather Vane site'
+        aboutText.innerText ='Weather Vane'; 
+        aboutParagraph.innerText = 'Learning to use an API..';
+        aboutParagraph2.innerText = '';
+        projectLink.setAttribute('href', 'portfolioProjects/weatherSite/html/index.html');
+    }
+
+    weatherVaneButton.addEventListener('click', getWeatherVane);
+
+
 
 
 
